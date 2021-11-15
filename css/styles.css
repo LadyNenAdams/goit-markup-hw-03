@@ -129,10 +129,7 @@ img {
     display: flex;
 }
 
-.header-list-item {
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
+
 
 .header-list-item:not(:last-child) {
     margin-right: 50px;
@@ -141,14 +138,16 @@ img {
 }
 
 .header-li {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: var(--header-nav-color);
 }
 .header-li:focus, .header-li:hover {
-    color: var(--btn-text-color);
-    background-color: var(--highlight-color);
+    color: var(--highlight-color);
 }
 
 .header-contact-ul {
@@ -174,12 +173,15 @@ img {
 
 /*Футер*/
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
    background-color: var(--background-footer-color); 
+
 }
 
 .footer-container {
-    padding-top: 60px;
-    padding-bottom: 60px;
+
 }
 
 .footer-webstudio {
@@ -199,7 +201,7 @@ img {
 }
 
 .footer-p {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 
@@ -236,8 +238,12 @@ img {
 
 /*Герой*/
 .hero {
-    background-color: var(--background-hero-color);
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    background-color: var(--background-hero-color);
+    
 }
 
 .hero-container {
@@ -246,6 +252,8 @@ img {
 }
 
 .hero-main-title {
+    margin-bottom: 30px;
+
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -256,6 +264,9 @@ img {
 }
 
 .hero-btn {
+    width: 200px;
+    height: 50px;
+
     cursor: pointer;
     color: var(--btn-text-color);
     background-color: var(--btn-color);
@@ -279,8 +290,13 @@ img {
 
 }
 
+.features-li {
+    width: 270px;
+}
+
 .features-li-text {
     text-align: left;
+    
 }
 
 
@@ -303,11 +319,16 @@ img {
     font-size: 14px;
     line-height: 1.7;
     color: var(--main-text-color);
+
 }
+
+
+
 
 /*Чем-мы=занимаемся*/
 .we-do {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 .we-do-container {
     text-align: center;
@@ -392,7 +413,7 @@ img {
 .team-li-text {
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 60px;
+    
 }
 .team-h {
     font-weight: 500;
@@ -422,7 +443,7 @@ img {
     display: flex;
     justify-content: center;
 
-    margin-bottom: 34px;
+    margin-bottom: 50px;
      
 }
 
@@ -437,13 +458,16 @@ img {
 
 
 .filter-btn {
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+
     cursor: pointer;
     font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
-
-    width: 145px;
 
     border-radius: 4px;
     border: hidden;
@@ -483,6 +507,9 @@ img {
 
 .gallery-link {
 
+}
+.gallery-h-text {
+    padding: 20 24;
 }
 
 .gallery-h {
